@@ -25,12 +25,12 @@ module.exports = {
     },
     start: function () {
         return runtime.start().then(function () {
-            logger.info('FUXA started!');
+            logger.info('iotbluehmi worker started!');
         });
     },
     stop: function () {
         return runtime.stop().then(function () {
-            logger.info('FUXA stopped!');
+            logger.info('iotbluehmi worker stopped!');
         })
     },
 
